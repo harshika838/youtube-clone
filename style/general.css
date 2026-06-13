@@ -12,3 +12,14 @@ body{
     background-color: rgb(241, 237, 237);
    
 }
+
+@media (max-width: 750px) {
+    body {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
